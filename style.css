@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
 :root{
     --branco:white;
-    --cor-de-fundo:#07458b;
+    --cor-de-fundo:#062344;
     --fundo-senha:#3759bf;
-    --fundo-texto:#319cc6;
-    --borda:#60d3f9;
+    --fundo-texto:#316fc6;
+    --borda:#000000;
     --fonte-principal:´Mozilla Headline`;
 }
 body{
@@ -22,4 +22,39 @@ body{
     background-color: var(--fundo-senha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
+}
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    width: 70%;
+}
+.titulo-principal{
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+}
+img{
+    width: 15%;
+    height: 10%;
+}
+#campo-senha:focus{
+    outline: none;
+}
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--branco);
+    margin-top: 32px;
+    padding: 24px;
+}
+.parametro-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+}
+.parametro-senha-titulo{
+    font-size: 24px;
 }
