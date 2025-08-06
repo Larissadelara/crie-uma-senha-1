@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
 :root{
     --branco:white;
-    --cor-de-fundo:#062344;
-    --fundo-senha:#3759bf;
-    --fundo-texto:#000001;
+    --cor-de-fundo:#3e025d;
+    --fundo-senha:#6c26b6;
+    --fundo-texto:#b73fdf;
     --borda:#000000;
     --fonte-principal:´Mozilla Headline`;
 }
