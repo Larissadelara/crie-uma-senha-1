@@ -3,7 +3,7 @@
     --branco:white;
     --cor-de-fundo:#062344;
     --fundo-senha:#3759bf;
-    --fundo-texto:#316fc6;
+    --fundo-texto:#000001;
     --borda:#000000;
     --fonte-principal:´Mozilla Headline`;
 }
@@ -39,7 +39,7 @@ body{
     font-size: 24px;
 }
 img{
-    width: 15%;
+    width: 10%;
     height: 10%;
 }
 #campo-senha:focus{
